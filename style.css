@@ -1,0 +1,126 @@
+html,body{
+  padding: 50px;
+  margin: 160px;
+}
+body {
+    background: url(images/back.jpg) #050505;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    background-position-y: inherit;
+    height: 180px;
+}
+#img_track {
+    background-image: url(images/icon.png);
+    height: 300px;
+    width: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container {
+    margin-top: 100px;
+    background: rgba(0, 0, 0, 0.7);
+    color: rgb(104, 68, 68);
+    opacity: 1;
+    padding: 4;
+    max-width: 1140px;
+}
+.input-group {
+    padding: 0 12px;
+}
+#other_titles{
+  
+  margin: auto;
+  width: 60%;
+  border: 5px solid #0883bd;
+  padding: 10px;
+
+  color:#fff;
+  max-height: 300px;
+  overflow-y: scroll;
+  display: block;
+}
+.table{
+  color:#fff;
+}
+input#search {
+    border-radius: 1;
+
+    margin: auto;
+    width: 20%;
+    border: 5px solid #0469a3;
+    padding: 7px;
+}
+
+/*centering the search bar, the div*/
+.div#input-group {
+  margin: auto;
+  width: 60%;
+  border: 5px solid #000000;
+  padding: 10px;
+  }
+
+
+audio{
+  background-color:#11719e;
+  width: 100%;
+  outline: 10px;
+}
+div#title {
+    font-size: 50px;
+    text-align: right;
+    padding: 0px 100px;
+    padding-top: 80px;
+    color: #fff;
+}
+div#artist {
+    font-size: 30px;
+    text-align: right;
+    padding: 0 100px;
+    padding-bottom: 84.5px;
+    color: rgb(255, 255, 255);
+}
+
+
+
+.player{
+  height: 100px;
+}
+
+/* 
+#search_btn{
+  background: #0a1536;
+  color: #fff;
+  border-radius: 0;
+
+  margin: auto;
+  width: 60%;
+  border: 5px solid #c00606;
+  padding: 10px;
+
+}
+*/
+
+#other_titles tr {
+    cursor: pointer;
+}
+#other_titles tr:hover {
+    background: #100f0f !important;
+}
+
+i.fa.fa-refresh:hover {
+    color: #000000;
+}
+
+
+
+.TITLE {
+  position: relative;
+  
+  stroke-width: extra-large * 0.05;
+  font-size: extra-large;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-family: 'Catamaran', sans-serif;
+  font-style: italic;
+}
+
